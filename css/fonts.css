@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Stratum2;
+  src: url(../fonts/stratum2-regular.woff);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Stratum2;
+  src: url(../fonts/stratum2-medium.woff);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Stratum2;
+  src: url(../fonts/stratum2-bold.woff);
+  font-weight: 700;
+}

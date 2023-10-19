@@ -3,9 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>CS2 Case Simulator</title>
 </head>
 <body>
-  Hello world!
+  <div id="drop-popup" class="popup hidden">
+    <p class="popup__text">You received:</p>
+    <img id="popup-img" class="popup__img" src="#" alt="weapon image">
+    <p id="popup-name" class="popup__name">Weapon Name</p>
+    <button id="popup-close" class="popup__close-btn">Close</button>
+  </div>
+  <div class="container">
+    <ul id="container-list" class="container-list"></ul>
+  </div>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>
